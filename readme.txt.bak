@@ -1,0 +1,15 @@
+C++ language was designed with the idea of adding Classes to C
+C++ was intially called C with classes
+The bigger less than readbility and more is the maintanence hence
+C is procedural oriented langauge C++ is object orientated language
+functions can either use local or global values
+
+Class is a template to create objects
+OOP treats data as critical elements
+Decomposes the problem in objects and builds data and functions around the objects
+Objects are run time entities created using Class
+Data Encapsulation= Wrapping of data and functions into single unit
+Data Abstraction- Hide low level design(which is the logic ) which we do not want to store
+Inheritance-Properties of one class can be inherited from others
+Polymorphism=Abitliy to take multiple forms
+Dynamic/Data Binding-code which will execute is not know until the program runs
