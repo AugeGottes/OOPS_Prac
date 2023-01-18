@@ -49,14 +49,8 @@ cmake_ninja_workdir = C$:/Users/Debanjan$ Das/Desktop/OOPS/cmake-build-debug/
 
 build cmake_object_order_depends_target_OOPS: phony || CMakeFiles/OOPS.dir
 
-build CMakeFiles/OOPS.dir/part1.cpp.obj: CXX_COMPILER__OOPS_Debug C$:/Users/Debanjan$ Das/Desktop/OOPS/part1.cpp || cmake_object_order_depends_target_OOPS
-  DEP_FILE = CMakeFiles\OOPS.dir\part1.cpp.obj.d
-  FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\OOPS.dir
-  OBJECT_FILE_DIR = CMakeFiles\OOPS.dir
-
-build CMakeFiles/OOPS.dir/part2.cpp.obj: CXX_COMPILER__OOPS_Debug C$:/Users/Debanjan$ Das/Desktop/OOPS/part2.cpp || cmake_object_order_depends_target_OOPS
-  DEP_FILE = CMakeFiles\OOPS.dir\part2.cpp.obj.d
+build CMakeFiles/OOPS.dir/inheritance.cpp.obj: CXX_COMPILER__OOPS_Debug C$:/Users/Debanjan$ Das/Desktop/OOPS/inheritance.cpp || cmake_object_order_depends_target_OOPS
+  DEP_FILE = CMakeFiles\OOPS.dir\inheritance.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\OOPS.dir
   OBJECT_FILE_DIR = CMakeFiles\OOPS.dir
@@ -69,7 +63,7 @@ build CMakeFiles/OOPS.dir/part2.cpp.obj: CXX_COMPILER__OOPS_Debug C$:/Users/Deba
 #############################################
 # Link the executable OOPS.exe
 
-build OOPS.exe: CXX_EXECUTABLE_LINKER__OOPS_Debug CMakeFiles/OOPS.dir/part1.cpp.obj CMakeFiles/OOPS.dir/part2.cpp.obj
+build OOPS.exe: CXX_EXECUTABLE_LINKER__OOPS_Debug CMakeFiles/OOPS.dir/inheritance.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OOPS.dir

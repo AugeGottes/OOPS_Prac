@@ -3,4 +3,4 @@ project(OOPS_Practise)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(OOPS part1.cpp part2.cpp)
+add_executable(OOPS inheritance.cpp)
